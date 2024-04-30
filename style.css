@@ -55,3 +55,20 @@ button:hover {
   filter: brightness(1.5);
   font-weight: bolder;
 }
+
+.link__container {
+  border-top: 1px solid rgba(250, 250, 250, 0.5);
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: yellowgreen;
+  font-weight: bold;
+}
